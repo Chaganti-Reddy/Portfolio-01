@@ -12,6 +12,5 @@ $headers = "From: ". $email;
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
-//redirect
-header("index.html");
+
 ?>
