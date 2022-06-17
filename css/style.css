@@ -38,6 +38,16 @@ ul {
     list-style: none;
 }
 
+.experience ul li::before {
+    content: "\2023";
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
 .section {
     background-color: var(--bg-black-900);
     min-height: 100vh;

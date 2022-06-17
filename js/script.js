@@ -1,6 +1,6 @@
 /* ========================= Typing Animation ========================= */
 let typed = new Typed('.typing', {
-  strings: ['', 'Machine Learning Engineer', 'Programmer', 'Web Designer', 'Physics Lover', 'Web Developer'],
+  strings: ['', 'Machine Learning Engineer', 'Competetive Programmer', 'Web Designer', 'Physics Lover', 'Web Developer'],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,
@@ -90,5 +90,3 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle('open');
   }
 }
-
-
