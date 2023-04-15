@@ -1,6 +1,6 @@
 /* ========================= Typing Animation ========================= */
 let typed = new Typed('.typing', {
-  strings: ['', 'Machine Learning Engineer', 'Competetive Programmer', 'Web Designer', 'Physics Lover', 'Web Developer'],
+  strings: ['', 'Machine Learning Engineer','Data Scientist', 'Competetive Programmer', 'Physics Enthusiastic', 'Web Developer'],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,
@@ -9,7 +9,7 @@ let typed = new Typed('.typing', {
 const today = new Date();
 const year = today.getFullYear();
 
-document.querySelector('.my_age').innerHTML = year - 2003;
+document.querySelector('.my_age').innerHTML = year - 2003 - 1;
 
 /* ========================= Aside ========================= */
 const nav = document.querySelector('.nav'),
