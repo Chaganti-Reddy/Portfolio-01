@@ -9,7 +9,7 @@ let typed = new Typed('.typing', {
 const today = new Date();
 const year = today.getFullYear();
 
-document.querySelector('.my_age').innerHTML = year - 2003 - 1;
+document.querySelector('.my_age').innerHTML = year - 2003;
 
 /* ========================= Aside ========================= */
 const nav = document.querySelector('.nav'),
